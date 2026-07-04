@@ -4,7 +4,7 @@ function welcomeMessage() {
 
 function showOffer() {
     document.getElementById("offer").innerHTML =
-    "Today's Special Offer: Get 20% OFF on all Vitamins!";
+    "Today's Special Offer: Get 15% OFF on all Vitamins!";
 }
 
 function contactMessage() {
