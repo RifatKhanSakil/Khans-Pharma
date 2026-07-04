@@ -1,0 +1,266 @@
+/* ===========================
+   GENERAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4fdf8;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+    background:#198754;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
+nav{
+    display:flex;
+    justify-content:center;
+    background:#146c43;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:18px 25px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:white;
+    color:#146c43;
+}
+
+/* ===========================
+   HOME PAGE (FLEXBOX)
+=========================== */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+    padding:40px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h2{
+    color:#198754;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    margin-bottom:15px;
+    line-height:1.8;
+}
+
+.hero-image{
+    flex:1;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+button{
+    background:#198754;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#14532d;
+}
+
+/* ===========================
+   FEATURES
+=========================== */
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:40px;
+}
+
+.feature-card{
+    background:white;
+    width:320px;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-5px);
+}
+
+.feature-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+/* ===========================
+   PRODUCTS PAGE (GRID)
+=========================== */
+
+.product-section{
+    padding:40px;
+    text-align:center;
+}
+
+.product-section h2{
+    color:#198754;
+    margin-bottom:15px;
+}
+
+.product-section p{
+    margin-bottom:20px;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-top:30px;
+}
+
+.product-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+    transition:0.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-5px);
+}
+
+.product-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.product-card h3{
+    margin-top:15px;
+    color:#198754;
+}
+
+/* ===========================
+   CONTACT PAGE
+=========================== */
+
+.contact-section{
+    padding:40px;
+}
+
+.contact-section h2{
+    color:#198754;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.contact-section p{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.contact-container{
+    display:flex;
+    gap:40px;
+    margin-top:30px;
+}
+
+.contact-info,
+.contact-form{
+    flex:1;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+.contact-info img,
+.contact-form img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.contact-info h3,
+.contact-form h3{
+    color:#198754;
+    margin-bottom:15px;
+}
+
+.contact-info p{
+    text-align:left;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.contact-form textarea{
+    resize:none;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#198754;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
